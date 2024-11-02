@@ -2,10 +2,12 @@ import React, { useState } from 'react';
 import { GlobalStyles } from './styles/GlobalStyles';
 import { Header } from './components/Header/Header';
 import { Main } from './components/Main/Main';
-import { Services } from './components/Services/Services';
-import { Contact } from './components/Contact/Contact';
 import Resultados from './components/Resultados/Resultados';
 import ScrollToTop from './components/Scroll/Scroll';
+import Services from './components/ServiceCard/Service';
+import Contact from './components/Contact/Contact';
+import WhatsAppButton from './components/WhatsappButton/WhatsappButton';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
 	const [currentPage, setCurrentPage] = useState('home');
@@ -21,11 +23,16 @@ function App() {
 				<>
 					<Main />
 					<Services />
+					<Resultados />
 					<Contact />
 				</>
 			)}
-			{currentPage === 'resultados' && <Resultados />}
 			<GlobalStyles />
+
+			<WhatsAppButton
+				phoneNumber='5561995394260'
+				message='Olá! Gostaria de saber mais sobre seus serviços de podologia!'
+			/>
 			<ScrollToTop />
 		</>
 	);

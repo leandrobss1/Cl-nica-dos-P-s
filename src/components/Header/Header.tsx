@@ -26,15 +26,18 @@ export const Header: React.FC<HeaderProps> = ({ switchPage }) => {
 
 				<S.ButtonsWrapper>
 					<S.HomeButton onClick={() => switchPage('home')}>INÍCIO</S.HomeButton>
+
 					<S.ServicesButton onClick={() => scrollToSection('services-section')}>
 						SERVIÇOS
 					</S.ServicesButton>
+
+					<S.ResultsButton onClick={() => scrollToSection('results-section')}>
+						RESULTADOS
+					</S.ResultsButton>
+
 					<S.ContactButton onClick={() => scrollToSection('contact-section')}>
 						CONTATO
 					</S.ContactButton>
-					<S.ResultsButton onClick={() => switchPage('resultados')}>
-						RESULTADOS
-					</S.ResultsButton>
 				</S.ButtonsWrapper>
 			</S.Wrapper>
 		</S.StyledHeader>
