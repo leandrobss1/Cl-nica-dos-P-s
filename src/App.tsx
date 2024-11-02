@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { GlobalStyles } from './styles/GlobalStyles';
+import { Header } from './components/Header/Header';
+import { Main } from './components/Main/Main';
+import { Services } from './components/Services/Services';
+import { Contact } from './components/Contact/Contact';
+import Resultados from './components/Resultados/Resultados';
+import ScrollToTop from './components/Scroll/Scroll';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const [currentPage, setCurrentPage] = useState('home');
+
+	const switchPage = (page: string) => {
+		setCurrentPage(page);
+	};
+
+	return (
+		<>
+			<Header switchPage={switchPage} />
+			{currentPage === 'home' && (
+				<>
+					<Main />
+					<Services />
+					<Contact />
+				</>
+			)}
+			{currentPage === 'resultados' && <Resultados />}
+			<GlobalStyles />
+			<ScrollToTop />
+		</>
+	);
 }
 
 export default App;
