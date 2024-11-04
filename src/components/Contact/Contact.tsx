@@ -8,14 +8,11 @@ const Footer: React.FC = () => {
 	return (
 		<S.FooterContainer id='contact-section'>
 			<S.FooterLinks>
-				<S.FooterLink href='#!'>
+				<S.FooterLink
+					href='https://www.instagram.com/mario_podologia/'
+					target='_blank'
+				>
 					<CiInstagram />
-				</S.FooterLink>
-				<S.FooterLink href='#!'>
-					<FaXTwitter />
-				</S.FooterLink>
-				<S.FooterLink href='#!'>
-					<FaFacebookF />
 				</S.FooterLink>
 			</S.FooterLinks>
 			<S.FooterText>

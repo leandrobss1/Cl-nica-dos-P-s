@@ -2,11 +2,7 @@ import React from 'react';
 import * as S from './styles';
 import Logo from '../img/logo.png';
 
-type HeaderProps = {
-	switchPage: (page: string) => void;
-};
-
-export const Header: React.FC<HeaderProps> = ({ switchPage }) => {
+export const Header: React.FC = () => {
 	const scrollToSection = (id: string) => {
 		const element = document.getElementById(id);
 		if (element) {
@@ -18,14 +14,16 @@ export const Header: React.FC<HeaderProps> = ({ switchPage }) => {
 
 	return (
 		<S.StyledHeader>
-			<S.Wrapper>
-				<S.HeaderTitle id='home-section'>
+			<S.Wrapper id='home-section'>
+				<S.HeaderTitle>
 					<S.ImgLogo src={Logo} alt='Logo-Clinica' title='Logo da Clínica' />
 					Clínica dos Pés
 				</S.HeaderTitle>
 
 				<S.ButtonsWrapper>
-					<S.HomeButton onClick={() => switchPage('home')}>INÍCIO</S.HomeButton>
+					<S.HomeButton onClick={() => scrollToSection('home-section')}>
+						INÍCIO
+					</S.HomeButton>
 
 					<S.ServicesButton onClick={() => scrollToSection('services-section')}>
 						SERVIÇOS

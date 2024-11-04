@@ -4,10 +4,12 @@ Projeto ainda em desenvolvimento e terá suas atualizações semanais sobre toda
 
 . ⚛️ uso do framework React.
 
-. 📚 uso da biblioteca yarn no projeto.
+. 📚 uso da biblioteca yarn & npm no projeto.
 
 . 🧑‍💻 uso do TypeScript para um melhor
 desenvolvimento.
+
+. 📞 uso de API para contato imediato via whatsapp com o especialista do serviço.
 
 # Autor:
 
