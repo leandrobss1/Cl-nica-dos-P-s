@@ -23,6 +23,8 @@ export const MainTitle = styled.h1`
 
 export const MainParagraph = styled.p`
 	font-size: 18px;
+	font-weight: 400;
+	color: #083640;
 `;
 
 export const MainImage = styled.img`

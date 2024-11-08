@@ -15,9 +15,8 @@ const Galeria: React.FC = () => {
 				<S.GalleryImage
 					src={Foto1}
 					alt='Antes e Depois'
-					title='Tratamento de Frieira'
+					title='Tratamento de Unha Encravada'
 				/>
-				<S.GalleryLabel>Tratamento de Frieira</S.GalleryLabel>
 			</S.GalleryItem>
 			<S.GalleryItem>
 				<S.GalleryImage
@@ -25,15 +24,13 @@ const Galeria: React.FC = () => {
 					alt='Antes e Depois'
 					title='Tratamento de Unha Encravada'
 				/>
-				<S.GalleryLabel>Tratamento de Unha Encravada</S.GalleryLabel>
 			</S.GalleryItem>
 			<S.GalleryItem>
 				<S.GalleryImage
 					src={Foto3}
 					alt='Antes e Depois'
-					title='Tratamento de Micose'
+					title='Tratamento de Unha Encravada'
 				/>
-				<S.GalleryLabel>Tratamento de Micose</S.GalleryLabel>
 			</S.GalleryItem>
 		</S.GalleryContainer>
 	);

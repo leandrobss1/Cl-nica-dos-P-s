@@ -108,3 +108,20 @@ export const ResultsButton = styled.button`
 		transition: 0.2s;
 	}
 `;
+
+export const ArticleButton = styled.button`
+	border: none;
+	height: 30px;
+	padding: 0 1rem;
+	color: black;
+	cursor: pointer;
+
+	display: flex;
+	align-items: center;
+	gap: 0.2rem;
+
+	&:hover {
+		color: gray;
+		transition: 0.2s;
+	}
+`;

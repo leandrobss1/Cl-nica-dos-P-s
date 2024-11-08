@@ -15,7 +15,12 @@ const WhatsAppButton: React.FC<WhatsAppButtonProps> = ({
 	)}`;
 
 	return (
-		<S.Button href={whatsappLink} target='_blank' rel='noopener noreferrer'>
+		<S.Button
+			href={whatsappLink}
+			target='_blank'
+			rel='noopener noreferrer'
+			title='Chame no Whatsapp'
+		>
 			<i className='fab fa-whatsapp'></i>
 		</S.Button>
 	);

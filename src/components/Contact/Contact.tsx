@@ -1,8 +1,6 @@
 import React from 'react';
 import * as S from './styles';
 import { CiInstagram } from 'react-icons/ci';
-import { FaXTwitter } from 'react-icons/fa6';
-import { FaFacebookF } from 'react-icons/fa';
 
 const Footer: React.FC = () => {
 	return (
@@ -12,7 +10,7 @@ const Footer: React.FC = () => {
 					href='https://www.instagram.com/mario_podologia/'
 					target='_blank'
 				>
-					<CiInstagram />
+					<CiInstagram /> mario_podologia
 				</S.FooterLink>
 			</S.FooterLinks>
 			<S.FooterText>

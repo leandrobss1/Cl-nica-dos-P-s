@@ -29,6 +29,10 @@ export const Header: React.FC = () => {
 						SERVIÇOS
 					</S.ServicesButton>
 
+					<S.ArticleButton onClick={() => scrollToSection('article-section')}>
+						TRATAMENTO
+					</S.ArticleButton>
+
 					<S.ResultsButton onClick={() => scrollToSection('results-section')}>
 						RESULTADOS
 					</S.ResultsButton>

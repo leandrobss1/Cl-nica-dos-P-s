@@ -5,8 +5,7 @@ export const GlobalStyles = createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: inter, sans-serif;
-
+        font-family: Oswald, sans-serif;
     }
 
     body {

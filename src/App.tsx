@@ -8,6 +8,7 @@ import Contact from './components/Contact/Contact';
 import WhatsAppButton from './components/WhatsappButton/WhatsappButton';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Galeria from './components/Resultados/Resultados';
+import Article from './components/Article/Article';
 
 function App() {
 	return (
@@ -15,6 +16,7 @@ function App() {
 			<Header />
 			<Main />
 			<Services />
+			<Article />
 			<Galeria />
 			<Contact />
 

@@ -12,11 +12,16 @@ export const FooterContainer = styled.footer`
 export const FooterText = styled.p`
 	margin: 0;
 	font-size: 1rem;
+	font-weight: 300;
 `;
 
 export const FooterLinks = styled.div`
 	margin: 0.5rem 0;
 	padding-top: 1rem;
+	text-align: center;
+	font-size: 0.2rem;
+	width: auto;
+	height: auto;
 
 	&::before {
 		content: '';
@@ -29,10 +34,19 @@ export const FooterLinks = styled.div`
 `;
 
 export const FooterLink = styled.a`
+	display: inline-flex;
+	align-items: center;
 	color: #fff;
 	margin: 0 0.5rem;
 	text-decoration: none;
+	text-align: center;
+	font-size: 1rem;
+	font-family: inter, sans-serif;
 
+	svg {
+		margin-right: 0.5rem;
+		font-size: 1rem;
+	}
 	&:hover {
 		color: #7ab2d3;
 	}
