@@ -18,6 +18,7 @@ function App() {
 			<Services />
 			<Article />
 			<Galeria />
+
 			<Contact />
 
 			<GlobalStyles />

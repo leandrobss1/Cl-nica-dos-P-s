@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const FooterContainer = styled.footer`
 	width: 100%;
-	background-color: #333;
+	background-color: #4f4f4f;
 	color: #fff;
 	text-align: center;
 	padding: 1rem 0;
@@ -11,8 +11,18 @@ export const FooterContainer = styled.footer`
 
 export const FooterText = styled.p`
 	margin: 0;
+	font-size: 2rem;
+	font-weight: 300;
+	text-align: center;
+	padding-bottom: 1rem;
+`;
+
+export const FooterRight = styled.p`
+	margin: 0;
 	font-size: 1rem;
 	font-weight: 300;
+	text-align: center;
+	color: black;
 `;
 
 export const FooterLinks = styled.div`
@@ -48,6 +58,12 @@ export const FooterLink = styled.a`
 		font-size: 1rem;
 	}
 	&:hover {
-		color: #7ab2d3;
+		color: #083640;
 	}
+`;
+
+export const FooterCep = styled.p`
+	color: white;
+	font-size: 1rem;
+	padding-top: 1rem;
 `;

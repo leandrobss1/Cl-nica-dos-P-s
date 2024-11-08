@@ -17,7 +17,7 @@ export const Header: React.FC = () => {
 			<S.Wrapper id='home-section'>
 				<S.HeaderTitle>
 					<S.ImgLogo src={Logo} alt='Logo-Clinica' title='Logo da Clínica' />
-					Clínica dos Pés
+					Sáude dos Pés
 				</S.HeaderTitle>
 
 				<S.ButtonsWrapper>

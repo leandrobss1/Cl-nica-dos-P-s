@@ -6,13 +6,14 @@ export const GalleryContainer = styled.div`
 	justify-content: space-around;
 	align-items: center;
 	width: 100%;
+	height: 600px;
 	margin-top: 2rem;
 `;
 
 export const GalleryTitle = styled.h1`
 	text-align: center;
 	font-weight: 300;
-	padding: 0.4rem;
+	padding: 0.1rem;
 `;
 
 export const GalleryItem = styled.div`

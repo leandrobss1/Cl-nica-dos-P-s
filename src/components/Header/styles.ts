@@ -29,7 +29,7 @@ export const HeaderTitle = styled.h1`
 	align-items: center;
 	color: black;
 	font-size: 1.6rem;
-	font-weight: 600;
+	font-weight: 400;
 
 	img {
 		margin-right: 10px;
