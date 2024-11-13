@@ -7,6 +7,12 @@ export const MainContainer = styled.div`
 	gap: 8rem;
 	padding: 1.25rem;
 	margin-bottom: 1rem;
+	flex-wrap: wrap;
+
+	@media (max-width: 991px) {
+		flex-direction: column;
+		gap: 2rem;
+	}
 `;
 
 export const MainArticle = styled.article`
@@ -14,21 +20,59 @@ export const MainArticle = styled.article`
 	padding: 2rem;
 	text-align: center;
 	border-right: 2px solid #083640;
+
+	@media (max-width: 991px) {
+		max-width: 80%;
+		border-right: none;
+		order: 2;
+	}
+
+	@media (max-width: 600px) {
+		max-width: 100%;
+		border-right: none;
+		order: 2;
+	}
 `;
 
 export const MainTitle = styled.h1`
 	font-size: 2.3rem;
 	margin-bottom: 2rem;
+
+	@media (max-width: 991px) {
+		font-size: 1.8rem;
+	}
+
+	@media (max-width: 600px) {
+		font-size: 1.5rem;
+	}
 `;
 
 export const MainParagraph = styled.p`
 	font-size: 18px;
 	font-weight: 400;
 	color: #083640;
+
+	@media (max-width: 991px) {
+		font-size: 16px;
+	}
+
+	@media (max-width: 600px) {
+		font-size: 14px;
+	}
 `;
 
 export const MainImage = styled.img`
 	max-width: 35%;
 	height: auto;
 	border-radius: 2px;
+
+	@media (max-width: 991px) {
+		max-width: 50%;
+		order: 1;
+	}
+
+	@media (max-width: 600px) {
+		max-width: 90%;
+		order: 1;
+	}
 `;

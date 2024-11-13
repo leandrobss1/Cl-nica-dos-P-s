@@ -65,6 +65,14 @@ export const ArticleDescription = styled.p`
 	text-align: center;
 	margin: 1rem;
 	font-weight: 300;
+
+	@media (max-width: 991px) {
+		font-size: 1.2rem;
+	}
+
+	@media (max-width: 600px) {
+		font-size: 1rem;
+	}
 `;
 
 export const ArticleContainerReverse = styled(ArticleContainer)`

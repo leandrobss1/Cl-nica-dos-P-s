@@ -16,7 +16,6 @@ export const Wrapper = styled.div`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-
 	max-width: 1240px;
 	margin: 0 auto;
 	padding: 0 2rem;
@@ -36,9 +35,33 @@ export const HeaderTitle = styled.h1`
 	}
 `;
 
-export const ButtonsWrapper = styled.div`
+export const ButtonsWrapper = styled.div<{ isMenuOpen: boolean }>`
 	display: flex;
 	gap: 0.1rem;
+
+	@media (max-width: 830px) {
+		display: ${(props) => (props.isMenuOpen ? 'flex' : 'none')};
+		flex-direction: column;
+		width: 16%;
+		position: absolute;
+		top: 80px;
+		right: 0px;
+		background-color: white;
+		padding: 1rem 0;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	}
+
+	@media (max-width: 420px) {
+		display: ${(props) => (props.isMenuOpen ? 'flex' : 'none')};
+		flex-direction: column;
+		width: 25%;
+		position: absolute;
+		top: 80px;
+		right: 0px;
+		background-color: white;
+		padding: 1rem 0;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	}
 `;
 
 export const HomeButton = styled.button`
@@ -55,6 +78,12 @@ export const HomeButton = styled.button`
 	&:hover {
 		color: gray;
 		transition: 0.2s;
+	}
+
+	@media (max-width: 830px) {
+		width: 100%;
+		text-align: center;
+		padding: 1rem;
 	}
 `;
 
@@ -73,6 +102,12 @@ export const ServicesButton = styled.button`
 		color: gray;
 		transition: 0.2s;
 	}
+
+	@media (max-width: 830px) {
+		width: 100%;
+		text-align: center;
+		padding: 1rem;
+	}
 `;
 
 export const ContactButton = styled.button`
@@ -89,6 +124,12 @@ export const ContactButton = styled.button`
 	&:hover {
 		color: gray;
 		transition: 0.2s;
+	}
+
+	@media (max-width: 830px) {
+		width: 100%;
+		text-align: center;
+		padding: 1rem;
 	}
 `;
 
@@ -107,6 +148,12 @@ export const ResultsButton = styled.button`
 		color: gray;
 		transition: 0.2s;
 	}
+
+	@media (max-width: 830px) {
+		width: 100%;
+		text-align: center;
+		padding: 1rem;
+	}
 `;
 
 export const ArticleButton = styled.button`
@@ -123,5 +170,20 @@ export const ArticleButton = styled.button`
 	&:hover {
 		color: gray;
 		transition: 0.2s;
+	}
+
+	@media (max-width: 830px) {
+		width: 100%;
+		text-align: center;
+		padding: 1rem;
+	}
+`;
+
+export const MenuIcon = styled.div`
+	display: none;
+	cursor: pointer;
+
+	@media (max-width: 830px) {
+		display: block;
 	}
 `;

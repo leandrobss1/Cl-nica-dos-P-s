@@ -1,7 +1,7 @@
 import React from 'react';
 import * as S from './styles';
-import Foto1 from '../img/Foto1Article.png';
-import Foto2 from '../img/Foto2Article.png';
+import Foto1 from '../img/fotores1.jpg';
+import Foto2 from '../img/fotores2.jpg';
 
 const Articles: React.FC = () => {
 	const generalTitle =
