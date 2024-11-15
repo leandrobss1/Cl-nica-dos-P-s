@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Clinica-dos-Pes/static/css/main.fa31f975.css",
+    "main.js": "/Clinica-dos-Pes/static/js/main.5a94c595.js",
+    "static/media/localizacao.png": "/Clinica-dos-Pes/static/media/localizacao.db229fe2389539cf0e36.png",
+    "static/media/fa-solid-900.ttf": "/Clinica-dos-Pes/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/logo.png": "/Clinica-dos-Pes/static/media/logo.b8e7dcd560a2193fb5a6.png",
+    "static/media/fa-brands-400.ttf": "/Clinica-dos-Pes/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/Foto3.png": "/Clinica-dos-Pes/static/media/Foto3.730f2f97a98792da6679.png",
+    "static/media/foto-pe-1.png": "/Clinica-dos-Pes/static/media/foto-pe-1.9f778723e91f8e028bd6.png",
+    "static/media/Foto1.png": "/Clinica-dos-Pes/static/media/Foto1.9cce3dfc26434cd6a1cb.png",
+    "static/media/mario.jpg": "/Clinica-dos-Pes/static/media/mario.2066d9073845ebd18d7d.jpg",
+    "static/media/Foto2.png": "/Clinica-dos-Pes/static/media/Foto2.ab5eff8e061e59715b2b.png",
+    "static/media/fa-solid-900.woff2": "/Clinica-dos-Pes/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/foto-pe-3.png": "/Clinica-dos-Pes/static/media/foto-pe-3.6beecb15ce46acb7b62f.png",
+    "static/media/fa-brands-400.woff2": "/Clinica-dos-Pes/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/Clinica-dos-Pes/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/fotores2.jpg": "/Clinica-dos-Pes/static/media/fotores2.5b6b95617eb484fc6adb.jpg",
+    "static/media/fa-regular-400.woff2": "/Clinica-dos-Pes/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fotores1.jpg": "/Clinica-dos-Pes/static/media/fotores1.405bf4d8ad8a52f2b369.jpg",
+    "static/media/foto-pe-2.png": "/Clinica-dos-Pes/static/media/foto-pe-2.d20a9401acef9001697a.png",
+    "static/media/fa-v4compatibility.ttf": "/Clinica-dos-Pes/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Clinica-dos-Pes/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/Clinica-dos-Pes/index.html",
+    "main.fa31f975.css.map": "/Clinica-dos-Pes/static/css/main.fa31f975.css.map",
+    "main.5a94c595.js.map": "/Clinica-dos-Pes/static/js/main.5a94c595.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa31f975.css",
+    "static/js/main.5a94c595.js"
+  ]
+}
