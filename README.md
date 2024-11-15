@@ -1,13 +1,13 @@
 # Projeto profissional sobre Saúde dos Pés
 
-Projeto ainda em desenvolvimento e terá suas atualizações semanais sobre toda atualização de código, testes unitários de componentes e a lógica com uso de tipagem TypeScript.
+Projeto foi finalizado e abaixo tem as tecnologias usadas 👇
 
 . ⚛️ uso do framework React.
 
 . 📚 uso da biblioteca yarn & npm no projeto.
 
 . 🧑‍💻 uso do TypeScript para um melhor
-desenvolvimento.
+desenvolvimento e tipagem de código.
 
 . 📞 uso de API para contato imediato via whatsapp com o especialista do serviço.
 

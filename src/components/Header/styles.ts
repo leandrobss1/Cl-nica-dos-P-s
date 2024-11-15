@@ -84,6 +84,12 @@ export const HomeButton = styled.button`
 		width: 100%;
 		text-align: center;
 		padding: 1rem;
+
+		&:hover {
+			color: black;
+			background-color: #dce4c9;
+			transition: 0.2s;
+		}
 	}
 `;
 
@@ -107,6 +113,12 @@ export const ServicesButton = styled.button`
 		width: 100%;
 		text-align: center;
 		padding: 1rem;
+
+		&:hover {
+			color: black;
+			background-color: #dce4c9;
+			transition: 0.2s;
+		}
 	}
 `;
 
@@ -130,6 +142,12 @@ export const ContactButton = styled.button`
 		width: 100%;
 		text-align: center;
 		padding: 1rem;
+
+		&:hover {
+			color: black;
+			background-color: #dce4c9;
+			transition: 0.2s;
+		}
 	}
 `;
 
@@ -153,6 +171,12 @@ export const ResultsButton = styled.button`
 		width: 100%;
 		text-align: center;
 		padding: 1rem;
+
+		&:hover {
+			color: black;
+			background-color: #dce4c9;
+			transition: 0.2s;
+		}
 	}
 `;
 
@@ -176,6 +200,12 @@ export const ArticleButton = styled.button`
 		width: 100%;
 		text-align: center;
 		padding: 1rem;
+
+		&:hover {
+			color: black;
+			background-color: #dce4c9;
+			transition: 0.2s;
+		}
 	}
 `;
 
