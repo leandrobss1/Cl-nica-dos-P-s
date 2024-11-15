@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Clinica-dos-Pes/static/css/main.fa31f975.css",
-    "main.js": "/Clinica-dos-Pes/static/js/main.321b252c.js",
+    "main.js": "/Clinica-dos-Pes/static/js/main.93a2407a.js",
     "static/media/localizacao.png": "/Clinica-dos-Pes/static/media/localizacao.db229fe2389539cf0e36.png",
     "static/media/fa-solid-900.ttf": "/Clinica-dos-Pes/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/logo.png": "/Clinica-dos-Pes/static/media/logo.b8e7dcd560a2193fb5a6.png",
@@ -23,10 +23,10 @@
     "static/media/fa-v4compatibility.woff2": "/Clinica-dos-Pes/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/Clinica-dos-Pes/index.html",
     "main.fa31f975.css.map": "/Clinica-dos-Pes/static/css/main.fa31f975.css.map",
-    "main.321b252c.js.map": "/Clinica-dos-Pes/static/js/main.321b252c.js.map"
+    "main.93a2407a.js.map": "/Clinica-dos-Pes/static/js/main.93a2407a.js.map"
   },
   "entrypoints": [
     "static/css/main.fa31f975.css",
-    "static/js/main.321b252c.js"
+    "static/js/main.93a2407a.js"
   ]
 }
